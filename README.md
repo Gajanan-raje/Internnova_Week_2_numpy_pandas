@@ -1,215 +1,164 @@
-InternNova Week 2 - NumPy & Pandas for Data Analytics
+<div align="center">
 
-📌 Project Overview
+# 📊 InternNova Week 2 — NumPy & Pandas for Data Analytics
 
-This repository contains my Week 2 internship assignment from InternNova, focused on NumPy and Pandas for Data Analytics.
+**Practical Python for Data Analytics: Arrays, DataFrames, Cleaning, GroupBy, Pivot Tables & More**
+
+![Python](https://img.shields.io/badge/Python-3.x-3776AB?style=flat-square&logo=python&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-Arrays-013243?style=flat-square&logo=numpy&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-DataFrames-150458?style=flat-square&logo=pandas&logoColor=white)
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen?style=flat-square)
+![Internship](https://img.shields.io/badge/InternNova-Week%202-orange?style=flat-square)
+
+</div>
+
+---
+
+## 📌 Project Overview
+
+This repository contains my **Week 2 internship assignment** from **InternNova**, focused on **NumPy and Pandas for Data Analytics**.
 
 The project demonstrates practical use of Python libraries for numerical computing, data manipulation, data cleaning, data inspection, filtering, sorting, aggregation, and basic data analysis.
 
-The assignment includes 10 tasks covering NumPy fundamentals, Pandas operations, missing-value handling, data combination, GroupBy analysis, Pivot Tables, CSV processing, and a mini data analysis project.
+The assignment includes **10 tasks** covering NumPy fundamentals, Pandas operations, missing-value handling, data combination, GroupBy analysis, Pivot Tables, CSV processing, and a mini data analysis project.
 
 ---
 
-🎯 Objectives
+## 🎯 Objectives
 
-The main objectives of this project are:
-
-- Understand NumPy arrays and their properties.
-- Perform indexing, slicing, and reshaping using NumPy.
-- Perform mathematical and statistical operations.
-- Understand Pandas Series and DataFrames.
-- Load and inspect CSV datasets.
-- Select, filter, and sort data.
-- Identify and handle missing values.
-- Merge and concatenate datasets.
-- Perform GroupBy and aggregation operations.
-- Create Pivot Tables.
-- Export processed data to CSV files.
-- Apply NumPy and Pandas concepts in a basic data analysis project.
+- Understand NumPy arrays and their properties
+- Perform indexing, slicing, and reshaping using NumPy
+- Perform mathematical and statistical operations
+- Understand Pandas Series and DataFrames
+- Load and inspect CSV datasets
+- Select, filter, and sort data
+- Identify and handle missing values
+- Merge and concatenate datasets
+- Perform GroupBy and aggregation operations
+- Create Pivot Tables
+- Export processed data to CSV files
+- Apply NumPy and Pandas concepts in a basic data analysis project
 
 ---
 
-🛠️ Technologies Used
+## 🛠️ Technologies Used
 
-- Python
-- NumPy
-- Pandas
-- CSV
-- Visual Studio Code
+| Tool | Purpose |
+|---|---|
+| 🐍 Python | Core programming language |
+| 🔢 NumPy | Numerical computing & arrays |
+| 🐼 Pandas | Data manipulation & analysis |
+| 📄 CSV | Data storage format |
+| 💻 Visual Studio Code | Development environment |
 
 ---
 
-📚 Tasks Covered
+## 📚 Tasks Covered
 
-Task 1: NumPy Introduction & Arrays
+<details>
+<summary><b>Task 1 — NumPy Introduction & Arrays</b></summary>
 
 Created NumPy arrays and examined their basic properties.
 
-Topics covered:
+**Topics covered:** Creating NumPy arrays · One-dimensional arrays · Two-dimensional arrays · Array shape · Array size · Data type
+</details>
 
-- Creating NumPy arrays
-- One-dimensional arrays
-- Two-dimensional arrays
-- Array shape
-- Array size
-- Data type
-
----
-
-Task 2: NumPy Indexing, Slicing & Reshaping
+<details>
+<summary><b>Task 2 — NumPy Indexing, Slicing & Reshaping</b></summary>
 
 Worked with NumPy arrays using indexing, slicing, and reshaping techniques.
 
-Topics covered:
+**Topics covered:** Array indexing · Array slicing · Accessing rows · Accessing columns · Reshaping arrays
+</details>
 
-- Array indexing
-- Array slicing
-- Accessing rows
-- Accessing columns
-- Reshaping arrays
-
----
-
-Task 3: NumPy Mathematical & Statistical Operations
+<details>
+<summary><b>Task 3 — NumPy Mathematical & Statistical Operations</b></summary>
 
 Performed mathematical and statistical operations on numerical data.
 
-Operations covered:
+**Operations covered:** Addition · Subtraction · Multiplication · Division · Mean · Median · Minimum · Maximum · Standard deviation · Sum
+</details>
 
-- Addition
-- Subtraction
-- Multiplication
-- Division
-- Mean
-- Median
-- Minimum
-- Maximum
-- Standard deviation
-- Sum
-
----
-
-Task 4: Pandas Series & DataFrame
+<details>
+<summary><b>Task 4 — Pandas Series & DataFrame</b></summary>
 
 Created and manipulated Pandas Series and DataFrames.
 
-Topics covered:
+**Topics covered:** Creating Pandas Series · Creating DataFrames · Viewing column names · Viewing indexes · Adding new columns · Updating DataFrames
+</details>
 
-- Creating Pandas Series
-- Creating DataFrames
-- Viewing column names
-- Viewing indexes
-- Adding new columns
-- Updating DataFrames
-
----
-
-Task 5: Reading & Inspecting Data
+<details>
+<summary><b>Task 5 — Reading & Inspecting Data</b></summary>
 
 Loaded a student dataset from a CSV file and inspected its structure.
 
-Operations covered:
+**Operations covered:** Reading CSV files · `head()` · `tail()` · `shape` · `columns` · `dtypes` · `info()` · `describe()`
+</details>
 
-- Reading CSV files
-- "head()"
-- "tail()"
-- "shape"
-- "columns"
-- "dtypes"
-- "info()"
-- "describe()"
-
----
-
-Task 6: Selecting, Filtering & Sorting Data
+<details>
+<summary><b>Task 6 — Selecting, Filtering & Sorting Data</b></summary>
 
 Performed data selection, filtering, and sorting using Pandas.
 
-Operations covered:
+**Operations covered:** Selecting specific columns · Selecting specific rows · Conditional filtering · Multiple filtering conditions · Ascending sorting · Descending sorting
+</details>
 
-- Selecting specific columns
-- Selecting specific rows
-- Conditional filtering
-- Multiple filtering conditions
-- Ascending sorting
-- Descending sorting
-
----
-
-Task 7: Handling Missing Values
+<details>
+<summary><b>Task 7 — Handling Missing Values</b></summary>
 
 Worked with a dataset containing missing values and applied different methods to handle them.
 
-Operations covered:
+**Operations covered:** Identifying missing values · Counting missing values · Removing missing records · Filling missing numerical values · Filling missing categorical values
+</details>
 
-- Identifying missing values
-- Counting missing values
-- Removing missing records
-- Filling missing numerical values
-- Filling missing categorical values
-
----
-
-Task 8: Merge, Concatenate, GroupBy & Pivot Table
+<details>
+<summary><b>Task 8 — Merge, Concatenate, GroupBy & Pivot Table</b></summary>
 
 Performed important data manipulation and summarization operations.
 
-Operations covered:
+**Operations covered:** Merging DataFrames · Concatenating DataFrames · GroupBy analysis · Aggregate calculations · Pivot Tables
+</details>
 
-- Merging DataFrames
-- Concatenating DataFrames
-- GroupBy analysis
-- Aggregate calculations
-- Pivot Tables
-
----
-
-Task 9: Exporting Data
+<details>
+<summary><b>Task 9 — Exporting Data</b></summary>
 
 Processed the student dataset and exported the resulting DataFrame to a CSV file.
 
-Operations covered:
+**Operations covered:** Data processing · Sorting · CSV export · Verifying exported data
+</details>
 
-- Data processing
-- Sorting
-- CSV export
-- Verifying exported data
-
----
-
-📊 Task 10: Mini Data Analysis Project
+<details open>
+<summary><b>📊 Task 10 — Mini Data Analysis Project</b></summary>
 
 The mini project applies the concepts learned throughout the assignment to a student dataset.
 
-Analysis Steps
+**Analysis Steps**
+1. Loaded the student dataset
+2. Inspected the dataset
+3. Checked for missing values
+4. Cleaned the dataset
+5. Selected relevant columns
+6. Filtered students based on marks
+7. Sorted students by marks
+8. Performed GroupBy analysis
+9. Created a Pivot Table
+10. Identified key insights
+11. Exported the cleaned dataset
 
-1. Loaded the student dataset.
-2. Inspected the dataset.
-3. Checked for missing values.
-4. Cleaned the dataset.
-5. Selected relevant columns.
-6. Filtered students based on marks.
-7. Sorted students by marks.
-8. Performed GroupBy analysis.
-9. Created a Pivot Table.
-10. Identified key insights.
-11. Exported the cleaned dataset.
-
-Key Insights
-
-The analysis identifies:
-
+**Key Insights**
 - Highest marks
 - Lowest marks
 - Average marks
 - Top-performing student
 - Average marks by department
 - Average marks by city
+</details>
 
 ---
 
-📁 Project Structure
+## 📁 Project Structure
 
+```
 Internnova-Week-2-Numpy-Pandas/
 │
 ├── README.md
@@ -242,80 +191,64 @@ Internnova-Week-2-Numpy-Pandas/
     ├── Task_8_Output.png
     ├── Task_9_Output.png
     └── Task_10_Output.png
+```
 
 ---
 
-▶️ How to Run the Project
+## ▶️ How to Run the Project
 
-1. Install Python
-
+**1. Install Python**
 Make sure Python is installed on your system.
 
-2. Install Required Libraries
-
-Open the terminal and run:
-
+**2. Install Required Libraries**
+```bash
 pip install numpy pandas
+```
 
-3. Clone the Repository
-
+**3. Clone the Repository**
+```bash
 git clone https://github.com/Gajanan-raje/Internnova-Week-2-Numpy-Pandas.git
+```
 
-4. Open the Project
-
+**4. Open the Project**
+```bash
 cd Internnova-Week-2-Numpy-Pandas
+```
 
-5. Run a Task
-
-For example:
-
+**5. Run a Task**
+```bash
 python Tasks/Task_1_Numpy_Arrays.py
+```
 
 You can run the other task files in the same way.
 
 ---
 
-💡 Skills Demonstrated
+## 💡 Skills Demonstrated
 
-This project demonstrates practical skills in:
-
-- Python Programming
-- NumPy
-- Pandas
-- Data Cleaning
-- Data Inspection
-- Data Manipulation
-- Data Filtering
-- Data Sorting
-- Exploratory Data Analysis
-- GroupBy Analysis
-- Pivot Tables
-- CSV Data Processing
-- Basic Statistical Analysis
+`Python Programming` `NumPy` `Pandas` `Data Cleaning` `Data Inspection` `Data Manipulation` `Data Filtering` `Data Sorting` `Exploratory Data Analysis` `GroupBy Analysis` `Pivot Tables` `CSV Data Processing` `Basic Statistical Analysis`
 
 ---
 
-📌 Internship
+## 📌 Internship
 
-Program: InternNova Internship
-Assignment: Week 2 - NumPy & Pandas for Data Analytics
-
----
-
-👨‍💻 Author
-
-Gajanan Harinarayan Raje
-
-BCA 3rd Year Student
-Aspiring Data Analyst
-
-Profiles
-
-- LinkedIn: https://www.linkedin.com/in/gajanan-raje/
-- GitHub: https://github.com/Gajanan-raje
+**Program:** InternNova Internship
+**Assignment:** Week 2 — NumPy & Pandas for Data Analytics
 
 ---
 
-📄 Note
+## 👨‍💻 Author
 
-This repository was created as part of my practical learning and internship assignment in Data Analytics using Python, NumPy, and Pandas.
+**Gajanan Harinarayan Raje**
+BCA 3rd Year Student · Aspiring Data Analyst
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/gajanan-raje/)
+[![GitHub](https://img.shields.io/badge/GitHub-Profile-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Gajanan-raje)
+
+---
+
+<div align="center">
+
+📄 *This repository was created as part of my practical learning and internship assignment in Data Analytics using Python, NumPy, and Pandas.*
+
+</div>
